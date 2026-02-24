@@ -1,0 +1,45 @@
+# ============================================================
+# Fermipy configuration file
+# Target: 3C 454.3 / 4FGL J2253.9+1609
+# Instrument: Fermi-LAT
+# Configuration fast test
+# ============================================================
+data:
+  evfile: data/events/events_gti.fits
+  scfile: data/spacecraft/L25122616233507AE195544_SC00.fits
+
+binning:
+  roiwidth: 20.0          # 2 × ROI radius
+  binsz: 0.1              # deg
+  binsperdec: 8           # energy bins per decade
+
+selection:
+  ra: 343.49
+  dec: 16.15
+  radius: 5.0             # reducido para test rápido
+  emin: 1000              # reducido para test rápido
+  emax: 300000
+  zmax: 90
+  evclass: 128
+  evtype: 3
+  tmin: 772915094
+  tmax: 788467094
+  target: "4FGL J2253.9+1609"
+
+gtlike:
+  edisp: true
+  irfs: P8R3_SOURCE_V3
+  edisp_bins: -1
+
+model:
+  src_roiwidth: 7.0
+  galdiff: gll_iem_v07.fits
+  isodiff: iso_P8R3_SOURCE_V3_v1.txt
+  catalogs:
+    - 4FGL-DR3
+
+logging:
+  verbosity: 3
+
+fileio:
+  outdir: ./output_fast

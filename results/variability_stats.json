@@ -1,0 +1,10 @@
+{
+    "n_bins": 14,
+    "n_detected": 14,
+    "mean_flux": 7.457038642089631e-07,
+    "std_flux": 5.332646824344899e-07,
+    "variability_index": 0.7151158898716088,
+    "skewness": 0.0,
+    "kurtosis": 0.0,
+    "fractional_rms": 0.6891029141110727
+}
