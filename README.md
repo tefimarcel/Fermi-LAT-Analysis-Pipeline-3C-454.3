@@ -1,7 +1,7 @@
-# ============================================
+# ===================================
 # Fermi-LAT Analysis Pipeline 
 ### By Estefanía Marcel
-# ============================================
+# ===================================
 
 This repository contains my first fully structured Fermi-LAT analysis pipeline, developed as a learning project while gaining hands-on experience with gamma-ray data analysis. The project is actively evolving — constructive feedback is very welcome!
 
