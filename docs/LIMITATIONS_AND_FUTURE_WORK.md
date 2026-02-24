@@ -1,7 +1,7 @@
-# ================================================================================================================
+# ==================================================
 # Limitations & Future Improvements
 ### Fermi-LAT Analysis Pipeline — Estefanía Marcel
-# ================================================================================================================
+# ==================================================
 
 
 This pipeline represents a solid, functional entry-level Fermi-LAT analysis. It covers the full standard workflow: data ingestion, binned likelihood fitting, SED extraction, source localization, light curve generation, and publication-quality visualizations.
@@ -9,9 +9,9 @@ This pipeline represents a solid, functional entry-level Fermi-LAT analysis. It 
 That said, it is intentionally general-purpose. A production-level analysis for a specific scientific goal will always require additional steps tailored to the source type, its physical characteristics, and the questions being asked. The improvements listed below are not gaps to be fixed, but natural extensions depending on what science you want to extract.
 
 
-# ----------------------------------------------------------------------------------------------------------------
+# ------------------------------------------
 ## Current Limitations
-# ----------------------------------------------------------------------------------------------------------------
+# ------------------------------------------
 
 
 ### 1. Fixed time binning in the light curve
@@ -34,9 +34,9 @@ The light curve is computed over the full energy range. There is no exploration 
 
 
 
-# ----------------------------------------------------------------------------------------------------------------
+# ------------------------------------------
 ## Future Improvements
-# ----------------------------------------------------------------------------------------------------------------
+# ------------------------------------------
 
 ### Adaptive time binning
 Instead of fixed uniform bins, implement a Bayesian block algorithm or a signal-to-noise based scheme that automatically adjusts bin width to the source flux level. Bright periods get short bins to resolve structure; faint periods get longer bins to maintain detection significance. This is standard practice in Fermi-LAT blazar studies.
@@ -59,9 +59,9 @@ Overlay the gamma-ray light curve with archival data from other wavelengths (opt
 ### Automated flare detection
 Implement a simple peak-finding algorithm on the light curve to flag statistically significant flux excursions above the quiescent level, and trigger deeper per-flare analysis (finer bins, free spectral shape) automatically.
 
--------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------
 
 This pipeline provides the foundation. Everything listed here is a modular extension — none of it requires rewriting what already works.
 
 
-*© 2024-2025 Estefanía Marcel — MIT License*
+*© 2026 Estefanía Marcel — MIT License*
