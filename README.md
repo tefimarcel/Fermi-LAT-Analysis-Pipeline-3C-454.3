@@ -7,12 +7,10 @@ This repository contains my first fully structured Fermi-LAT analysis pipeline, 
 
 **Test source:** 3C 454.3 / 4FGL J2253.9+1609 — FSRQ blazar, one of the brightest gamma-ray sources in the sky.
 
-**Results obtained (4-year dataset, 2022–2025):**
-- TS = 23,945 (~155σ detection significance)
-- Flux = (7.21 ± 0.12) × 10⁻⁷ ph/cm²/s
-- Best-fit position: RA=343.50°, DEC=16.11° (r68 = 0.26°)
+**Results obtained (MET 662688000 – 788400000)**
+- TS = 24,216 (~155.6σ detection significance)
+- Flux = (7.202 ± 0.011) × 10⁻⁷ ph/cm²/s
 - Spectral model: PLSuperExpCutoff4
-- Fractional variability: 0.42 (significant flux variability detected)
 
 -----------------------------------------------------------------------------------------------------------------
 
