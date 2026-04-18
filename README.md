@@ -1,6 +1,6 @@
 
 # Fermi-LAT Analysis Pipeline — 3C 454.3
-**Estefanía Marcel** · Astronomy student, FCAGLP-UNLP
+**Estefanía Marcel** · Advanced astronomy student, FCAGLP-UNLP
  
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
