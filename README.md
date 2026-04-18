@@ -1,10 +1,8 @@
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 
-# ===================================
 # Fermi-LAT Analysis Pipeline 
 ### By Estefanía Marcel
-# ===================================
 
 This repository contains my first fully structured Fermi-LAT analysis pipeline, developed as a learning project while gaining hands-on experience with gamma-ray data analysis. The project is actively evolving — constructive feedback is very welcome!
 
