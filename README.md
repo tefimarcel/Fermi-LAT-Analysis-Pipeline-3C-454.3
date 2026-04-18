@@ -144,7 +144,7 @@ During development, 9 bugs were encountered and documented. The most significant
 |   cfitsio     |  ≥ 4.0  |
 |    astropy    |  latest |
 
-> **Important:** `gta.lightcurve()` segfaults with `cfitsio < 4.0` combined with fermitools < 2.5.1. The environment above resolves this. See `docs/errores_y_soluciones.docx` for the full investigation.
+> **Important:** `gta.lightcurve()` segfaults with `cfitsio < 4.0` combined with fermitools < 2.5.1. The environment above resolves this. 
 
 ----------------------------------------------------------------------------------------------------------------
 
