@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+
 # ===================================
 # Fermi-LAT Analysis Pipeline 
 ### By Estefanía Marcel
